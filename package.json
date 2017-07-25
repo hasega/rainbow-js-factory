@@ -1,27 +1,27 @@
 {
-  "name": "raibow-js-factory",
-  "version": "1.0.0",
-  "description": "javascript node interface to access rainbow framework spec",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha --reporter spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hasega/raiwbow-js-factory.git"
-  },
-  "keywords": [
-    "rainbow",
-    "javascript",
-    "api",
-    "description",
-    "of",
-    "systems"
-  ],
-  "author": "Haroldo Asega <hasega@gmail.com> (http://aseg.io)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hasega/raiwbow-js-factory/issues"
-  },
-  "homepage": "https://github.com/hasega/raiwbow-js-factory#readme"
+    "name": "rainbow-js-factory",
+    "version": "1.0.0",
+    "description": "javascript node interface to access rainbow framework spec",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --reporter spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hasega/rainbow-js-factory.git"
+    },
+    "keywords": [
+        "rainbow",
+        "javascript",
+        "api",
+        "description",
+        "of",
+        "systems"
+    ],
+    "author": "Haroldo Asega <hasega@gmail.com> (http://aseg.io)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hasega/rainbow-js-factory/issues"
+    },
+    "homepage": "https://github.com/hasega/rainbow-js-factory#readme"
 }
