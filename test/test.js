@@ -1,7 +1,9 @@
 'use strict';
 
 var expect = require('chai').expect;
-var numFormatter = require('../index');
+var i = require('../index');
+var numFormatter = i.numFormatter;
+var rclient = i.restCall
 
 describe('#numFormatter', function() {
     it('should convert single digits', function() {
@@ -43,4 +45,10 @@ describe('#numFormatter', function() {
         var result = numFormatter(12345678);
         expect(result).to.equal('12,345,678');
     });
+
+    it('call localhost:8080', function() {
+        var result = rclient("test");
+        console.log(result);
+    });
+
 });
