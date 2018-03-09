@@ -4,7 +4,7 @@ import { expect } from 'chai';
 // import 'mocha';
 describe('Hello function', () => {
   it('should return hello world', () => {
-    const r = rainbowJSFactory();
+    const r = new rainbowJSFactory('');
     r.init("http://localhost:8081/");
     r.getModules()
     .subscribe((data) => {
