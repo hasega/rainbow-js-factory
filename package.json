@@ -1,6 +1,6 @@
 {
   "name": "rainbow-js-factory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "javascript node interface to access rainbow framework spec",
   "main": "index.ts",
   "scripts": {
