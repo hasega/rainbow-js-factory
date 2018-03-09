@@ -4,7 +4,7 @@
   "description": "javascript node interface to access rainbow framework spec",
   "main": "index.ts",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha -r ts-node/register test/test.ts"
   },
   "repository": {
     "type": "git",
