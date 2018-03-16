@@ -2,9 +2,10 @@
   "name": "rainbow-js-factory",
   "version": "1.0.1",
   "description": "javascript node interface to access rainbow framework spec",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha -r ts-node/register test/test.ts"
+    "test": "mocha -r ts-node/register test/test.ts",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

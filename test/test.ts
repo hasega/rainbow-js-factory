@@ -4,8 +4,8 @@ import { expect } from 'chai';
 // import 'mocha';
 describe('Hello function', () => {
   it('should return hello world', () => {
-    const r = new rainbowJSFactory('');
-    r.init("http://localhost:8081/");
+    const r = new rainbowJSFactory();
+  /*  r.init("http://localhost:8081/");
     r.getModules()
     .subscribe((data) => {
 
@@ -13,7 +13,7 @@ describe('Hello function', () => {
             console.log(data.body); // Show the JSON response object.
         }
     }, (err) => console.error(err) // Show error in console
-    );
+    ); */
 
     expect('Ok').to.equal('Ok');
   });
